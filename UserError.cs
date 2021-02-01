@@ -4,11 +4,8 @@ using System.Text;
 
 namespace Polymorfism33
 {
-	abstract class UserError
+	internal abstract class UserError
 	{
-		public abstract string UEMessage { get; }
-
-		public string Message { get; set; }
-
+		public abstract string UEMessage();
 	}
 }
